@@ -1,0 +1,714 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+/* Global styling starts here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+section{
+    margin-inline: 4rem;
+}
+a{
+    text-decoration: none;
+}
+/* Global styling ends here */
+/* Nav styling starts here */
+.nav_header{
+    background: url(./img/hero-bg.png);
+}
+#nav .nav{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+#nav .nav a{
+    display: flex;
+    margin-left: 2rem;
+    
+}
+#nav .nav a span{
+    align-self: center;
+    margin-left: 1rem;
+}
+#nav .nav .nav_menu{
+    display: flex;
+}
+#nav .nav .nav_menu .navigation_menu{
+    display: flex;
+}
+.hamburger{
+    display: none;
+}
+#nav .nav .nav_menu a,#nav .nav .nav_menu .login_signup span{
+    padding-inline: 1rem;
+    padding-block: .6rem;
+}
+#nav .nav .nav_menu .login_signup{
+    display: flex;
+}
+
+/* Nav styling ends here */
+/* Header styling starts here */
+#header .header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: url(./img/hero-ribbon-1.png) no-repeat;
+}
+#header .header .header_left{
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+}
+#header .header .header_left .discount{
+    background: hsl(0 0% 100% / 0.1);
+    backdrop-filter: blur(1.5rem);
+    width: 70%;
+    border-radius: 2rem;
+    padding-block: .5rem;
+}
+#header .header .header_left .discount span{
+    background: #ffffff;
+    border-radius: 2rem;
+    padding-block: .3rem;
+    padding-inline: .3rem;
+    margin-inline: .5rem;
+    color: #0D0D2B;
+}
+#header .header .header_left h1{
+font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+}
+#header .header .header_left .text{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #E0E0E0;
+    width: 80%;
+    margin-bottom: 1rem;
+}
+#header .header .header_left a{
+    background-color: blue;
+    border-radius: 2rem;
+    padding: .6rem 0 .6rem 1rem;
+}
+#header .header .header_left a span{
+    background-color: #ffffff;
+    color: blue;
+    border-radius: 50%;
+    padding: .6rem 1rem;
+    margin: 0  0 .5rem;
+}
+
+#header .header .header_right{
+    background: url(./img/hero-ribbon-2.png) no-repeat;
+}
+#header .header .header_right img{
+    width: 90%;
+    margin-left: 2rem;
+}
+/* Header styling ends here */
+/* About styling starts here */
+#about_us #why_top{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+#about_us #why_top .why_1{
+    display: flex;
+}
+#about_us #why_top .why_1 .why_img{
+    display: flex;
+    position: relative;
+    background: hsl(0 0% 100% / 0.1);
+    backdrop-filter: blur(1.5rem);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+#about_us #why_top .why_1 .why_img img{
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+}
+#about_us #why_top .why_1 p{
+    align-self: center;
+    margin-left: 1rem;
+    font-size: .8rem;
+}
+#about_us #why_top .why_1 p span{
+    display: block;
+    font-size: 2rem;
+}
+#about_us #why_bottom{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 8rem;
+}
+#about_us #why_bottom .why_image img{
+    width: 90%;
+}
+#about_us #why_bottom .why_info{
+    margin-top: 7rem;
+    padding-bottom: 3rem;
+}
+#about_us #why_bottom .why_info h1{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    width: 90%;
+    
+}
+#about_us #why_bottom .why_info p{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #E0E0E0;
+    width: 70%;
+    margin-bottom: 1rem;
+}
+#about_us #why_bottom .why_info a{
+    background-color:  #3671E9;
+    border-radius: 2rem;
+    padding: .6rem 1rem;
+   
+}
+/* About styling ends here */
+/* Check styling starts here */
+#check .check h1{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+#check .check p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #E0E0E0;
+}
+#check .check p span{
+    display: block;
+}
+#check form{
+    background: #FBFCFE;
+    color: #000000;
+    border-radius: 16px 16px 0px 0px;
+    width: 70%;
+    height: 5rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#check form .input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: transparent;
+    color: #000000; 
+    width: 403px;
+    margin-right: 1rem;
+}
+#check form select{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: transparent; 
+    color: #000000; 
+    width: 100px;
+}
+#check form .btn{
+    background: #3671E9;
+    border-radius: 2rem;
+    padding: .6rem 1rem;
+    border: none;
+    margin-left: 1rem;
+}
+/* Check styling ends here */
+/* coin styling starts here */
+#coin{
+    background-color: #ffffff;
+}
+#coin .estimated{
+    background: #FBFCFE;
+    color: #000000;
+    width: 70%;
+    height: 10rem;
+    margin: 0 auto;
+    padding-left: 7rem;
+    padding-top: 2rem;
+}
+#coin .estimated p{
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: #3671E9;
+}
+#coin .estimated h1{
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #0D0D2B;
+}
+#coin .estimated h1 span{
+    color: #3671E9;
+    margin-left: 1rem;
+}
+#coin .estimated p:nth-child(3){
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #828282;
+}
+#coin .coin_content{
+    display: flex;
+    flex-direction: column;
+}
+#coin .coin_content .coins_heading h1{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    color: #0D0D2B;
+    text-align: center;
+    margin-top: 3rem;
+}
+#coin .coin_content .coins_heading h1 span{
+    display: block;
+    color: #0D0D2B;
+}
+#coin .coin_content .coin_coins{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+#coin .coin_content .coin_coins .coin_coin{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background: #2B076E;
+    backdrop-filter: blur(250px);
+    border-radius: 16px;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    margin-bottom: 4rem;
+}
+#coin .coin_content .coin_coins .coin_coin .coin_heading{
+    margin-top: -2rem;
+}
+#coin .coin_content .coin_coins .coin_coin .coin_text{
+    margin-top: -4rem;
+}
+#coin .coin_content .coin_coins .coin_coin .coin_btn{
+    background-color: blue;
+    border-radius: 2rem;
+    padding: .6rem 0 .6rem 1rem;
+    width: 55%;
+    margin: 0 auto;
+}
+#coin .coin_content .coin_coins .coin_coin .coin_btn a span{
+    background-color: #ffffff;
+    color: blue;
+    border-radius: 50%;
+    padding: .6rem 1rem;
+    margin: 0 0 0 .5rem;
+}
+
+/* coin styling ends here */
+/* Feature styling ends here */
+.feature_bg{
+    background: #2B076E;
+}
+#feature .main_feature_heading{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 3rem;
+}
+#feature .main_feature_heading span{
+    display: block;
+    color: #ffffff;
+}
+#feature .features{
+    display: flex;
+    flex-direction: column;
+}
+#feature .features .feature{
+    display: flex;
+    margin-block: 2rem;
+}
+#feature .features .feature:nth-child(2){
+    flex-direction: row-reverse;
+}
+#feature .features .feature:nth-child(2) .feature_text{
+    margin-left: 4rem;
+}
+#feature .features .feature .feature_text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+#feature .features .feature .feature_text h1{
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+#feature .features .feature .feature_text p{
+    color: #E0E0E0;
+    width: 60%;
+    margin-bottom: 1rem;
+}
+#feature .features .feature .feature_text a{
+    background: #3671E9;
+    border-radius: 2rem;
+    padding: .6rem 1rem;
+    border: none;
+    width: 25%;
+    text-align: center;
+}
+#feature .features .feature .feature_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.start_mining_bg{
+    background: linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%);
+}
+.start_mining{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 392px;
+}
+.start_mining .content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3671E9;
+    border-radius: 16px;
+    width: 95%;
+    height: 180px;
+}
+.start_mining .content .content_content h1{
+    margin-bottom: 1rem;
+}
+.start_mining .content .content_content p{
+    width: 70%;
+}
+.start_mining .content input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: transparent;
+    width: 200px;
+    margin-right: 1rem;
+    color: #ffffff;
+}
+.start_mining .content input::placeholder{
+    color: #ffffff;
+}
+.start_mining .content button{
+    background: #ffffff;
+    color: #0D0D2B;
+    border-radius: 2rem;
+    padding: .6rem 1rem;
+    border: none;
+    margin-left: 1rem;
+}
+
+/* Feature styling ends here */
+/* Footer styling starts here */
+footer{
+    background: #0D0D2B;
+}
+#footer .footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+#footer .footer_logo a{
+    display: flex;
+    margin-left: 4rem;
+}
+#footer .footer_logo a span{
+    align-self: center;
+    margin-left: 1rem;
+}
+.footer_head h3{
+    padding-block: .5rem 1rem;
+}
+.footer_head .footer_links li{
+    padding-bottom: 1rem;
+    color: #F2F2F2;
+    font-size: 12px;
+}
+.payments .payment_img img{
+    width: 20%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 4rem 0 4rem;
+    
+}
+.footer_bottom .copy_right{
+    font-size: 12px;
+}
+.footer_bottom .socials img{
+    width: 15%;
+
+}
+/* Footer styling ends here */
+/* Media query for mobile starts here */
+@media only screen and (max-width: 37.5em){
+    section{
+        margin-inline: 0;
+        padding-inline: 1rem;
+    }
+    #nav .nav .nav_menu{
+        flex-direction: column;
+        position: fixed;
+        inset: 0;
+        background: hsl(0 0% 100% / 0.1);
+        backdrop-filter: blur(1.5rem);
+        flex-direction: column;
+        padding: 7rem 0 0 0;
+        transform: translateX(100%);
+        transition: all 900ms ease-in-out;
+        z-index: 100;
+        align-items: center;
+    }
+    #nav .nav .nav_menu .navigation_menu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #nav .nav .nav_menu .navigation_menu li a{
+        font-size: 30px;
+    }
+    #nav .nav .nav_menu[data-visible="true"]{
+        transform: translateX(0%);
+    }
+    .hamburger{
+        display: block;
+        position: absolute;
+        top: 2.7rem;
+        right: 2rem;
+        background: url(./img/icon-hamburger.svg) no-repeat;
+        z-index: 1000;
+        width: 1.5rem;
+        height: 1.5rem;
+        border: none;
+    }
+    .hamburger[aria-expanded="true"]{
+        background: url(./img/icon-close.svg) no-repeat;
+    }
+    #header .header{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #header .header .header_left .discount{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    #header .header .header_left h1, #about_us #why_bottom .why_info h1, 
+    #check .check h1, #coin .estimated h1, #coin .coin_content .coins_heading h1, 
+    #feature .main_feature_heading, #feature .features .feature .feature_text h1, 
+    .start_mining .content .content_content h1{
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 1rem;
+    }
+    #header .header .header_left .text, #about_us #why_bottom .why_info p, 
+    #check .check p, #coin .estimated p, #feature .features .feature .feature_text p
+    , .start_mining .content .content_content p{
+            font-size: 10px;
+            line-height: 15px;
+            margin-bottom: 1rem;
+    }
+    #about_us #why_top{
+        flex-direction: column;
+        margin-left: 4rem;
+        margin-bottom: 2rem;
+    }
+    #about_us #why_top .why_1{
+        margin-bottom: 2rem;
+    }
+    #about_us #why_bottom{
+        flex-direction: column;
+        align-items: center;
+    }
+    #check form{
+        width: 100%;
+        height: 7rem;
+        display: block;
+    }
+    #check form .input, #check form select{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    #coin .estimated{
+        width: 100%;
+        padding-left: 2rem;
+        height: 10rem;
+    }
+    #coin .coin_content .coins_heading h1 span, #feature .main_feature_heading span{
+        display: contents;
+    }
+    #coin .coin_content .coin_coins{
+        flex-direction: column;
+        align-items: center;
+    }
+    #feature .features .feature{
+        flex-direction: column;
+    }
+    #feature .features .feature:nth-child(2){
+        flex-direction: column-reverse;
+    }
+    #feature .features .feature:nth-child(2) .feature_text{
+        margin-left: 0;
+    }
+    #feature .features .feature .feature_text p{
+        width: 100%;
+    }
+    #feature .features .feature .feature_text a{
+        width: 35%;
+        margin-bottom: 2rem;
+    }
+    .start_mining .content{
+        flex-direction: column;
+    }
+    .start_mining .content .content_content h1{
+        margin-bottom: 0;
+    }
+    .start_mining .content .content_content p{
+        width: 100%;
+    }
+    #footer .footer{
+        grid-template-columns: repeat(2, 1fr);
+        padding-inline: 1rem;
+    }
+    #footer .footer_logo a{
+        margin: 0;
+    }
+    .payments{
+        margin-top: .5rem;
+    }
+    .footer_bottom{
+        flex-direction: column;
+        margin: 1.5rem 0 0 1rem;
+    }
+    .footer_bottom .socials img{
+        width: 5%;
+        margin-top: .5rem;
+    }
+}
+/* Media query for mobile ends here */
+/* Media query for tablet ends here */
+@media only screen and (max-width: 50em){
+    section{
+        margin-inline: 0;
+        padding-inline: 1rem;
+    }
+    #nav .nav a, #footer .footer_logo a{
+        flex-direction: column;
+        font-size: 12px;
+        margin-left: 0;
+    }
+    #nav .nav a span, #footer .footer_logo a span{
+        align-self: flex-start;
+        margin-left: 0;
+    }
+    #header .header .header_left .discount{
+        width: 100%;
+        font-size: 15px;
+    }#header .header .header_left h1, #about_us #why_bottom .why_info h1, 
+    #check .check h1, #coin .estimated h1, #coin .coin_content .coins_heading h1, 
+    #feature .main_feature_heading, #feature .features .feature .feature_text h1, 
+    .start_mining .content .content_content h1{
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 1rem;
+    }
+    #header .header .header_left .text, #about_us #why_bottom .why_info p, 
+    #check .check p, #coin .estimated p, #feature .features .feature .feature_text p
+    , .start_mining .content .content_content p{
+        font-size: 15px;
+        line-height: 20px;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    #about_us #why_bottom .why_image{
+        margin-top: 4rem;
+    }
+    #about_us #why_bottom .why_image img{
+        width: 100%;
+    }
+    #check form{
+        width: 95%;
+        padding-inline: 1rem;
+    }
+    #coin .estimated{
+        width: 95%;
+        padding-inline: 1rem;
+    }
+    #coin .estimated p{
+        font-size: 12px;
+        line-height: 130%;
+    }
+    #coin .coin_content .coin_coins .coin_coin{
+        width: 200px;
+    }
+    #coin .coin_content .coin_coins .coin_coin .coin_btn{
+        padding: .6rem 1rem .6rem 1rem;
+    }
+    #coin .coin_content .coin_coins .coin_coin .coin_btn a span{
+        display: none;
+    }
+    #feature .features .feature .feature_text a{
+        width: 40%;
+    }
+    .start_mining .content button{
+        margin-top: 1rem;
+    }
+    #footer .footer_logo a{
+        margin-left: 2rem;
+    }
+    #footer .footer_logo a img{
+        width: 30%;
+        height: 30%;
+    }
+}
+/* Media query for tablet ends here */
+
